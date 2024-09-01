@@ -1,0 +1,14 @@
+#title {
+    color: brown;
+    width: 50px;
+}
+
+.titleClass{
+    color: blue;
+    width: 150px;
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(95, 0, 229);
+}

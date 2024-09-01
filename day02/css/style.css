@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 16px;
+    background-color: #111;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.form-container{
+    background-color: rgb(6, 78, 60);
+    border: 2px solid rgb(243, 231, 231);
+}
+#title{
+    text-align: center;
+    color: #111;
+    background-color: #b3b5e5;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+#description{
+    text-align: center;
+    padding: 5px;
+    background: #1d160e;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#survey-form{
+    margin: 10px;
+}
+.group{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+label, .labeltext{
+    padding-right: 10px;
+    width: 150px;
+}
+
+#submit{
+    display: block;
+    width: 95%;
+    padding: 0.75rem;
+    background-color: orange;
+    color: inherit;
+    border-radius: 2px;
+    cursor: pointer;
+}

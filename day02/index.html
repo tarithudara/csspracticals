@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="form-container">
+        <header class="header">
+            <h1 id="title">Developers Survey Form</h1>
+            <p id="description">
+                Thank you for taking the time to help us know about world wide developers
+            </p>
+        </header>
+        <form id="survey-form" autocomplete="off">
+            <div class="group">
+                <label for="name" id="name-label">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Name" required />
+            </div>
+
+            <div class="group">
+                <label for="email" id="email-label">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Email" required />
+            </div>
+
+            <div class="group">
+                <label for="number" id="number">Age:</label>
+                <input type="number" id="number" min="10" max="99" placeholder="Age" required />
+            </div>
+
+            <div class="group">
+                <p class="labeltext">Nationality:</p>
+                <select name="Country" id="dropdown">
+                    <option value="Sri Lanka">Sri Lanka</option>
+                    <option value="India">India</option>
+                    <option value="USA">USA</option>
+                    <option value="Australia">Australia</option>
+                    <option value="Italy">Italy</option>
+                </select>
+            </div>
+
+            <div class="group">
+                <p class="labeltext labeltextresponse">Developer:</p>
+                <label><input type="radio" name="Role" value="frontend" />Frontend</label>
+                <label><input type="radio" name="Role" value="backend" />Backend</label>
+                <label><input type="radio" name="Role" value="fullstack" />Fullstack</label>
+            </div>
+
+            <div class="group">
+                <p class="labeltext">Describe about you:</p>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+
+            <div class="group">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+
+        </form>
+    </div>
+</body>
+
+</html>
